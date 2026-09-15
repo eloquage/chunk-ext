@@ -1,0 +1,17 @@
+{
+    "name": "eloquage/chunk-ext",
+    "description": "Optional PIE-compatible TypePHP native extension for eloquage/chunk.",
+    "type": "php-ext",
+    "license": "MIT",
+    "require": {
+        "php": "^8.3"
+    },
+    "php-ext": {
+        "extension-name": "eloquage_chunk"
+    },
+    "homepage": "https://github.com/eloquage/chunk-ext",
+    "support": {
+        "source": "https://github.com/eloquage/chunk-ext"
+    }
+}
+

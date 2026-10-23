@@ -1,5 +1,7 @@
 # eloquage/chunk-ext
 
+<p align="center"><img src="art/banner.png" alt="chunk-ext package banner" width="100%"></p>
+
 Optional TypePHP native accelerator for [eloquage/chunk](https://github.com/eloquage/chunk).
 
 This repository is a PIE extension release shell. The runtime API and pure-PHP implementation remain in the regular package. The release workflow fetches the matching public source tag, compiles it with the shared Dockerized TypePHP builder, verifies the module, and uploads a PIE binary asset.
@@ -23,7 +25,7 @@ composer require eloquage/chunk
 The runtime package is tagged first, then this repository receives the identical `vX.Y.Z` tag and GitHub Release. The release contains a Linux x86_64/glibc/PHP 8.5/NTS asset named:
 
 ```
-php_eloquage_chunk-X.Y.Z_php8.5-x86_64-linux-glibc-nts.tgz
+php_eloquage_chunk-vX.Y.Z_php8.5-x86_64-linux-glibc-nts.tgz
 ```
 
 The archive contains `eloquage_chunk.so`. Windows, macOS, ZTS, and non-8.5 binaries are not currently published.
